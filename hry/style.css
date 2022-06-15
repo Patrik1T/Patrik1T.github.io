@@ -1,0 +1,137 @@
+body{
+    background: url("./img/bd79e0a33a3737f394a1d52ab819948ad03a5024v2_hq.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}   
+h1 {
+    text-align: center;
+    font-size: 6em;
+    line-height: 2em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  nav {
+    background-color: #222;
+    margin: -20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 1.1em;
+    color: lightgray;
+  }
+  
+  nav a {
+    padding: 19px;
+    text-decoration: none;
+    color: lightgray;
+  }
+  
+  nav a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  a{
+    background-color: #222;
+}
+  h1 {
+    text-align: center;
+    font-size: 6em;
+    line-height: 2em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  h2,h3 {
+    font-weight: 200; 
+    line-height: 2em;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+  }
+  
+  h3 { 
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+  }
+  main{ 
+    background-color: url("/uvodni/img/afton.jpg");
+    height: 100vh;
+  }
+  
+  em {
+      color: rgb(0, 0, 0);
+  }
+  
+  .poznamka {
+      border-left: 10px solid rgb(129, 129, 129);
+      padding-left: 50px;
+      font-size: 0.9em;
+      font-style: italic;
+    }
+  
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  
+  p mark {
+      background-color: rgb(128, 192, 0);
+  }
+  
+  b{
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+  } 
+
+  p{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+table{
+    width: 60%;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #222;
+}
+
+td{
+color: rgb(255, 255, 255);
+}
+
+th{
+    color: rgb(255, 255, 255);
+}
+
+div{
+  background-color: #222;
+}
+
+main {
+  width: 2000px;
+  margin: 20px auto;
+  padding: 60px;
+ 
+  }
+
+
+  s{
+    color: rgb(255, 0, 0);
+  }
+
+  li{
+    color: rgb(255, 255, 255);
+   
+  }
