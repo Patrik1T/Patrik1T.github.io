@@ -1,0 +1,127 @@
+body{
+    background: url("./img/hello.webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}   
+
+h3{
+    color: rgb(220, 220, 220);
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding-bottom: 10px;
+}
+div{
+  background-color: #222
+}
+
+footer ul {
+    padding-left: 0;
+    text-indent: 0;
+    margin-left: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+   }
+  
+  nav {
+    background-color: #222;
+    margin: -20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 1.1em;
+    color: lightgray;
+  }
+  
+  nav a {
+    padding: 19px;
+    text-decoration: none;
+    color: lightgray;
+  }
+  
+  nav a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 6em;
+    line-height: 2em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  h2,h3 {
+    font-weight: 200; 
+    line-height: 2em;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+  }
+  
+  h3 { 
+    font-size: 1.2em;
+    border-bottom: 1px dotted rgb(0, 0, 0);
+    width: 100%;
+  }
+  
+  em {
+      color: rgb(0, 0, 0);
+  }
+  
+  .poznamka {
+      border-left: 10px solid rgb(129, 129, 129);
+      padding-left: 50px;
+      font-size: 0.9em;
+      font-style: italic;
+    }
+  
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  
+  p mark {
+      background-color: rgb(128, 192, 0);
+  }
+  
+  b{
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+  } 
+
+  p{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+footer{
+  background-color: #222
+}
+
+li{
+  color: rgb(255, 255, 255);
+}
+
+div{
+  background-color: #222
+}
+
+
+main {
+  width: 2000px;
+  margin: 20px auto;
+  padding: 60px;
+  }
+  
