@@ -392,9 +392,8 @@
           </p>
         </blockquote>
         <div class="bg-info p-3" id="dvanacty">
-          <button id="dvanactyButton">Nahodne cislo</button>
         </div>
-        <script>
+       <script>
             function prvocislo(cislo){
               let delitel = 2;
               if (cislo == 1 || cislo == 0) 
@@ -404,7 +403,7 @@
               }
               return !(cislo > delitel);
             }
-            dvanactyButton.addEventListener("click", function() {
+            dvanacty.addEventListener("click", function() {
               let nahod = Math.round(Math.random() * 1000);
               dvanacty.innerHTML = `Zadane nahodne cislo ${nahod} ${prvocislo(nahod) ? 'je' : 'neni'} prvocislem`;
             });
