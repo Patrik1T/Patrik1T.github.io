@@ -1,10 +1,11 @@
 *{
 padding: 0;
 margin: 0;
+/* znamená, že výplň a okraj budou zahrnuty do prvků celková šířka a výška*/
 box-sizing: border-box;
 font-family: 'Bangers', cursive;
 }
-
+/*Nastavení pozadí, a kde bude vytvořené. */
 canvas{
     background: black;
     position: absolute;
@@ -14,6 +15,7 @@ canvas{
 
 input{
     position: absolute;
+    /* calc funkce nám umožňuje provést výpočet při zadávání hodnot vlastností CSS*/
     width: calc(100% - 20px);
     padding: 10px;
     margin: 10px;
